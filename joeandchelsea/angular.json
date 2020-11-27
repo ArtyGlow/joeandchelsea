@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/joeandchelsea",
+            "outputPath": "Docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "joeandchelsea"
+  "defaultProject": "joeandchelsea",
+  "cli": {
+    "analytics": "b1e164ab-da7e-4f28-86d1-2c16eae48e51"
+  }
 }

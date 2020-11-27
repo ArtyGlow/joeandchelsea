@@ -1,0 +1,9 @@
+<p>
+    <label>{{message}}</label>
+    <br>
+        <button (click)="clickShell(0)" [disabled]="disabled">shell 1</button>
+        <button (click)="clickShell(1)" [disabled]="disabled">shell 2</button>
+        <button (click)="clickShell(2)" [disabled]="disabled">shell 3</button>
+    <br>
+        <button (click)="resetGame()" [disabled]="gameRunning">Play Again!</button>
+</p>
